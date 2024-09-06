@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0;
+    margin-top: -10px;
+    transition: 0.3s;
+    animation: show 300ms forwards;
+}
+
+@keyframes show {
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+
+.container h2,
+.container h3 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.container h3 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #FBF3CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h2 {
+    margin: 0;
+}
+
+
+.firstArea {
+    flex: 3.5;
+    display: flex;
+    gap: 15px;
+}
+
+.firstArea p {
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 500;
+    color: gray;
+}
+
+.secondArea {
+    flex: 2;
+    text-align: center;
+}
+
+.secondArea p {
+    font-weight: 600;
+}
+
+.thirdArea {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FAD2D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.check:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.check svg {
+    width: 20px;
+    fill: var(--primary);
+}

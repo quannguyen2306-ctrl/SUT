@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navHolder {
+    width: 200px;
+    height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.boxContainer {
+    margin: 20px;
+    margin-inline: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.box {
+    height: 150px;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.button {
+    border-radius: 20px;
+    height: 70px;
+    border: none;
+}
+
+.createBookingButton {
+    background-color: gray;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -10px;
+    padding: 15px;
+    gap: 20px;
+}
+
+.container h2,
+.container h3 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.container h3 {
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.container span {
+    font-weight: 600;
+}
+
+.container button {
+    height: 40px;
+    padding-inline: 15px;
+    border-radius: 10px;
+
+    font-size: 14px;
+    border: none;
+    background-color: var(--border);
+
+    cursor: pointer;
+}
+
+.container button:first-child {
+    background-color: var(--primary);
+    color: white;
+}

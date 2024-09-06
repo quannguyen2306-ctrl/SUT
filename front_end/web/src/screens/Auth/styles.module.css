@@ -1,0 +1,107 @@
+/* *{
+  background-color: #FFF7F8;
+} */
+
+.container {
+  display: flex;
+  position: relative;
+  padding: 30px 30px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  color: #FF4F6D;
+}
+
+.sut_welcome {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sut_welcome h1 {
+  color: #FF4F6D;
+}
+
+.auth_box {
+  width: 100%;
+  background: #f8f9fd;
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 0%,
+    rgb(244, 247, 251) 100%
+  );
+  border-radius: 40px;
+  padding: 25px 35px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: #ea5c74 0px 30px 30px -20px;
+  margin-top: 20px;
+}
+
+.form .inputIn4 {
+  display: block;
+  width: 100%;
+  background: white;
+  border: none;
+  padding-block: 15px;
+  /* padding: 15px 20px; */
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #f7c7cf 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+
+.form .inputIn4::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .inputIn4::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .inputIn4:focus {
+  outline: none;
+  /* border-inline: 2px solid #12b1d1; */
+}
+
+.form .signInOption {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.form .signInOption a {
+  font-size: 14px;
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.form .signInButton {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(
+    to bottom,
+    #FF4F6D 0%,
+    #f18e9e 100%
+  );
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: #e25f75 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.form .signInButton:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .signInButton:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}

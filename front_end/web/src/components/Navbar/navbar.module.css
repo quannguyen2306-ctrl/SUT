@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #FF4F6D;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    z-index: 100000;
+}
+
+.navbar a {
+    color: white;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    /* get rid of underscore */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.navbar a:hover {
+    color: #FF4F6D;
+    background-color: white;
+}
+
+.sut_logo {
+    transition: 0.2s;
+}
+
+.sut_logo:hover {
+    rotate: 45deg;
+}

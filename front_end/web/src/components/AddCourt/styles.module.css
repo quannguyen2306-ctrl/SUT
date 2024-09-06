@@ -1,0 +1,89 @@
+/* .court-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+ */
+ .court_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Adjust as needed */
+    margin-left: 200px;
+  }
+  .add_court {
+    flex: 0 0 200px; /* Adjust as needed */
+    margin: 10px; /* Adjust as needed */
+  }
+  .add_new_court {
+    border-radius: 15px;
+    font-size: medium;
+  }
+  .add_new_court:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.2s;
+  }
+  
+  .single_court {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px;
+  }
+  
+  .single_court img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+  
+  .single_court:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+  }
+  
+  /* styling for diolog box */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .more_info {
+    position: relative;
+    background-color: white;
+    /* height: 200px; */
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .details {
+    border-radius: 10%;
+  }
+  .details:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+  }
+  
+  .close_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .close_btn:hover {
+    background-color: #FF4F6D;
+    color: white;
+  }

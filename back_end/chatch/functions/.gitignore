@@ -1,0 +1,4 @@
+node_modules/
+.env
+*./env
+*./sut-app-677d2-firebase-adminsdk-i3row-8c74c54ec0.json

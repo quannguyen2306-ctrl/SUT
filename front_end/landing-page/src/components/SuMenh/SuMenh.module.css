@@ -1,0 +1,77 @@
+.section {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    width: 80%;
+    text-align: center;
+}
+
+.middle h1 {
+    font-weight: 600;
+}
+
+.cardContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.card {
+    width: 30%;
+    background-color: var(--light-primary);
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    margin-top: -10px;
+}
+
+.card h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 100px;
+}
+
+.circle svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 85%;
+    }
+
+    .middle {
+        width: 85%;
+    }
+}

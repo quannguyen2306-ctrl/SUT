@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.content {
+  flex: 1;
+}
+
+.navHolder {
+  height: 100vh;
+  width: 200px;
+}
+
+.buttonLogout {
+  height: 80px;
+  margin: 300px;
+  text-decoration: none;
+  background-color: #ff4f6d;
+  color: white;
+  border-radius: 100px;
+  padding: 15px;
+  transition: 0.2s ease-in;
+}
+
+.buttonLogout:hover {
+  transform: scale(1.5);
+}
